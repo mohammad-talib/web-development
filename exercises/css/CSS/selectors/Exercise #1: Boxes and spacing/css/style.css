@@ -1,0 +1,40 @@
+        body{
+            background-color: #f0f8ff;
+        }
+
+        div{
+            min-width: 500px;
+            max-width: 75%;
+            background-color: white;
+            border: 1px solid #333333;
+            margin-top: 1em;
+            padding: 0.5em;
+            border-radius: 10px;
+            box-shadow: 3px 3px #333;
+        }
+
+        span{
+            font-weight: bold;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+
+        .back-color-brown{
+            background-color: #fdca96;
+        }
+
+        .back-color-yellow{
+            background-color: #fdfd96;
+        }
+
+        #alert{
+            text-align: justify;
+        }
+
+        .back-color-headOne{
+            background-color: red;
+        }
+
+        .back-color-headTwo{
+            background-color: yellow;
+        }

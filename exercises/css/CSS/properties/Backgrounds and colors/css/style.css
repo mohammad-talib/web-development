@@ -1,0 +1,10 @@
+
+		.paragraph{
+			background-image: url("../images/confidential.jpg");
+			background-repeat: repeat-y;
+		}
+
+		.paragraph-color{
+			background-color: #D3D3D3;
+
+		}

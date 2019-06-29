@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subscription form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<fieldset class="center">
+		<legend>Personal details</legend>
+
+		<label>First name: <input type="name" name="name"></label>
+		
+		<label>Last name: <input type="name" name="name"></label>
+		
+		<label>Email address: <input type="Email" name="Email"></label>
+		
+		<label><mark>Gender</mark> 
+			<input type="radio" name="gender" value="Male"> Male
+			<input type="radio" name="gender" value="Female"> Female
+		</label>
+	</fieldset>
+
+	<fieldset class="center">
+		<legend>Magazines</legend>
+		<input type="checkbox" name="checkbox"> Stavanger Aftenblad <br>
+		<input type="checkbox" name="checkbox"> Teknisk Ukeblad <br>
+		<input type="checkbox" name="checkbox"> Se og Hor <br>
+		<input type="checkbox" name="checkbox"> Familien
+	</fieldset>
+
+	<fieldset class="center">
+		<legend>Subsecription</legend>
+		<label>Period: 
+			<select>
+				<option>6 months</option>
+				<option>12 months</option>
+				<option>18 months</option>
+			</select>
+		</label>
+
+	</fieldset>
+	<br>
+	<input id="button" type="submit" name="submit" value="Subscribe">
+
+	<details>
+	  <summary>Copyright 1999-2018.</summary>
+
+	  <p> - by Refsnes Data. All Rights Reserved.</p>
+
+	  <p>All content and graphics on this web site are the property of the company Refsnes Data.
+	  </p>
+	</details>
+</body>
+</html>

@@ -1,0 +1,13 @@
+h1{
+	color: blue;
+	font-size: 36px;
+	font-family: 'Rubik Mono One', sans-serif;
+}
+
+div{
+	font-size: 1.2em;
+}
+
+.right-paragraph{
+	float: right;
+}
