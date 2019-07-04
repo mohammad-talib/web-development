@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise #2: Photo Gallery</title>
+</head>
+
+	<style type="text/css">
+		.container{
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			grid-gap: 10px;
+		}
+
+		.container div:nth-child(2){
+			grid-column: span 3;
+			grid-row: span 2;
+		}
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+
+
+
+
+	</style>
+
+<body>
+
+	<div class="container">
+		<div>
+			<img src="https://picsum.photos/300/300/?blur">
+		</div>
+
+		<div>
+			<img src="https://images.unsplash.com/photo-1534278931827-8a259344abe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" width="100%">
+		</div>
+
+		<div>
+			<img src="https://picsum.photos/300/300/?blur">
+		</div>
+
+		<div>
+			<img src="https://picsum.photos/id/237/200/300">
+		</div>
+
+		<div>
+			<img src="https://picsum.photos/id/237/200/300">
+		</div>
+
+		<div>
+			<img src="https://picsum.photos/300/300?grayscale">
+		</div>
+
+		<div>
+			<img src="https://picsum.photos/id/870/300/300?grayscale&blur=2">
+		</div>
+		<div>
+			<img src="https://picsum.photos/id/237/300/300">
+		</div>
+		<div>
+			<img src="https://picsum.photos/300/300/?blur">
+		</div>
+		<div>
+			<img src="https://picsum.photos/300/300?grayscale">
+		</div>
+	</div>
+
+</body>
+</html>

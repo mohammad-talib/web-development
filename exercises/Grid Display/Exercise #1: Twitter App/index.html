@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise #1: Twitter App</title>
+
+	<style type="text/css">
+		
+		.grid-container{
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-auto-rows: minmax(480px, auto);
+		}
+
+		.grid-container div{
+			background-color: red;
+		}
+
+		p{
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="grid-container">
+		<div style="background-color: #BBEAF3"><p>Tweets</p></div>
+		<div style="background-color: yellow"><p>Replies</p></div>
+		<div style="background-color: #148FA8"><p>Search</p></div>
+		<div style="background-color: blue"><p>Messages</p></div>
+	</div>
+
+</body>
+</html>
